@@ -24,7 +24,7 @@ Instalación
 
 Clona el repositorio o descarga el código fuente.
 
-git clone [https://github.com/tu_usuario/conversor-monedas-java.git](https://github.com/alex-stampede/Conversor-de-monedas)
+git clone (https://github.com/alex-stampede/Conversor-de-monedas)
 Abre el proyecto en IntelliJ IDEA o cualquier otro IDE compatible con Java.
 Asegúrate de tener la dependencia de Gson para manejar la respuesta en formato JSON. Puedes agregar esta dependencia al archivo pom.xml si usas Maven:
 
