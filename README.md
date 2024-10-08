@@ -12,35 +12,39 @@ Conversión de monedas en tiempo real utilizando una API externa.
 Menú interactivo que permite al usuario realizar múltiples conversiones.
 Opción de salir de la aplicación cuando lo desee.
 La API utilizada es ExchangeRate-API, que proporciona tasas de cambio actualizadas.
+
+
 Requisitos
 
 Java 11 o superior.
 Conexión a Internet para realizar las solicitudes a la API.
+
+
 Instalación
 
 Clona el repositorio o descarga el código fuente.
-bash
-Copiar código
+
 git clone https://github.com/tu_usuario/conversor-monedas-java.git
 Abre el proyecto en IntelliJ IDEA o cualquier otro IDE compatible con Java.
 Asegúrate de tener la dependencia de Gson para manejar la respuesta en formato JSON. Puedes agregar esta dependencia al archivo pom.xml si usas Maven:
-xml
-Copiar código
+
 <dependency>
     <groupId>com.google.code.gson</groupId>
     <artifactId>gson</artifactId>
     <version>2.8.9</version>
 </dependency>
+
 Obtén una API key de ExchangeRate-API, si aún no tienes una.
 Reemplaza la variable API_KEY en el código con tu clave de API.
-java
-Copiar código
+
+
 private static final String API_KEY = "TU-API-KEY";
+
+
 Uso
 
 Al ejecutar la aplicación, se mostrará un menú con las siguientes opciones:
-markdown
-Copiar código
+
 ==============================
  Conversor de Monedas
 ==============================
@@ -54,8 +58,7 @@ La aplicación consultará las tasas de cambio y mostrará el resultado de la co
 Para salir de la aplicación, presiona 9 en el menú principal.
 Ejemplo de Ejecución
 
-markdown
-Copiar código
+
 ==============================
  Conversor de Monedas
 ==============================
@@ -74,15 +77,17 @@ Ingrese la cantidad a convertir: 100
 9. Salir de la aplicación
 Elija una opción: 9
 Saliendo de la aplicación... ¡Adiós!
+
+
 API Utilizada
 
 Este proyecto utiliza la API de ExchangeRate-API para obtener tasas de cambio actualizadas.
 
 Documentación API: ExchangeRate API Docs
+
 Autor
 
-Nombre: [Tu nombre o seudónimo]
-Contacto: [Tu email o contacto de redes sociales]
-Licencia
+Nombre: Alex-Stampede
+Contacto: contacto@marketingorion.com
 
 Este proyecto está bajo la licencia MIT. Puedes ver más detalles en el archivo LICENSE.
